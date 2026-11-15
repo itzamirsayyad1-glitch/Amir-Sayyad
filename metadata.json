@@ -1,0 +1,6 @@
+{
+  "name": "M1 ENTERPRISES - Electronics & Home Appliances",
+  "description": "Professional business management, POS billing, inventory, customer khata, accounts, and reporting for M1 ENTERPRISES in Shrirampur, Ahilyanagar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

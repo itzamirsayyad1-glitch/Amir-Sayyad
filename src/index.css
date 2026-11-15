@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-invoice-content,
+  #printable-invoice-content * {
+    visibility: visible;
+  }
+  #printable-invoice-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+    background: white;
+    box-shadow: none;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+}
